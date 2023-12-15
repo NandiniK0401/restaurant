@@ -1,0 +1,13 @@
+/* Author: Nandini Khokhani
+Date: 30 Sept, 2023
+CSS Reset Page for Acme Restaurant */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}

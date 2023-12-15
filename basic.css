@@ -1,0 +1,226 @@
+/* Author: Nandini Khokhani
+Date: 30 Sept, 2023
+CSS Basic Page for Acme Restaurant */
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover,#call a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Navigation Bar: Phone Styling */
+
+#call a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 3px 22px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    font-family: 'Bree Serif', serif;
+    transition: 0.4s;
+}
+
+/* Home Section */
+#home{
+    padding:3px 200px;
+    height: 550px;
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home h3{
+    color: white;
+    text-shadow: 2px 2px brown;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Services Section */
+#services{
+    margin: 34px;
+}
+
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+}
+
+/* About Section */
+#about{
+    padding: 25px 0px 25px 0px;
+}
+
+#about_img{
+    padding: 2vw;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#about_img img{
+    width: 50%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.about_col h1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.about_col p{
+    text-align: justify;
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+}
+
+/* Clients Section */
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 120px;
+    width: 139px;
+}
+
+/* Contact Section */
+#contact-box{
+    padding-bottom: 34px;
+}
+
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+}
+
+#contact-box input[type='submit']{
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: orange;
+    font-family: 'Bree Serif', serif;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.form-group:last-child{
+    text-align: center;
+}
+
+/* Footer Section */
+footer{
+    background: black;
+    color: rgb(240, 209, 152);
+    padding: 9px 20px;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+#home div a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 0px;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+}
+
